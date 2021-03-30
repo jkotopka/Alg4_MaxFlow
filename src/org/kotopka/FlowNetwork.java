@@ -15,6 +15,10 @@ public class FlowNetwork {
         }
     }
 
+    public int V() {
+        return V;
+    }
+
     public void addEdge(FlowEdge e) {
         int v = e.from();
         int w = e.to();
